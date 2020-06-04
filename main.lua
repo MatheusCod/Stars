@@ -26,13 +26,6 @@ function love.load()
 
   acceleration = 20
 
-  bg = {}
-  for i=0,nStars do
-    bg[i] = {}
-    bg[i].x = love.math.random(0, windowWidth)
-    bg[i].y = love.math.random(0, windowHeight)
-  end
-
 end
 
 function love.update(dt)
@@ -66,10 +59,5 @@ function love.draw()
   for i=1,nStars do
     love.graphics.circle("fill", stars[i].x, stars[i].y, stars[i].radius)
   end
-
-  --love.graphics.setColor(1, 1, 1)
-  --for i=1,nStars do
-  --  love.graphics.circle("fill", bg[i].x, bg[i].y, 1)
-  --end
 
 end
