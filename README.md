@@ -2,5 +2,8 @@
 A walk into the space.
 Simulation build using Lua programming language and LÖVE 11.3 game engine.
 
+## How to play the games/animations
+Instructions on how to play the programs can be found at: https://love2d.org/wiki/Getting_Started#Running_Games
+
 # Screenshot
-![Alt text](screenshot.png)
+<img src="https://github.com/MatheusCod/Stars/blob/master/screenshot.png" width="400" height="400">
