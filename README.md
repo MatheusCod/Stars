@@ -1,5 +1,5 @@
 # Stars
-A walk into the space.
+A walk into space.
 Simulation build using Lua programming language and LÖVE 11.3 framework.
 
 ## How to run the program
